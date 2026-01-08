@@ -1,0 +1,14 @@
+#udemy-hebrew-sub {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 24px;
+    z-index: 9999;
+    direction: rtl;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    pointer-events: none; /* שלא יפריע ללחיצה על הווידאו */
+}

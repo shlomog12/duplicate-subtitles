@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Udemy Hebrew Subtitles",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "host_permissions": ["https://*.udemy.com/*", "https://translate.googleapis.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.udemy.com/course/*/learn/lecture/*"],
+      "js": ["content.js"]
+    }
+  ]
+}Udemy Hebrew Subtitles
